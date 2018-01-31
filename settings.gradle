@@ -1,0 +1,4 @@
+rootProject.name = 'javakotlinapp'
+include 'tm.nsfantom.javakotlinapp'
+findProject(':tm.nsfantom.javakotlinapp')?.name = 'javakotlinapp'
+
