@@ -17,10 +17,6 @@
 public class Problem12 {
 
     public static void main(String[] args) {
-        getResult();getResult();getResult();
-    }
-
-    private static void getResult() {
         int count = 0;
         long curent = 1;
         long time = System.nanoTime();
@@ -33,7 +29,7 @@ public class Problem12 {
                     if (curent / j != j)
                         count++;
                 }
-            //System.out.println(curent);
+            System.out.println(curent);
         }
         time = System.nanoTime() - time;
         System.out.println("nanoTime: " + time + "\nresult: " + curent);
