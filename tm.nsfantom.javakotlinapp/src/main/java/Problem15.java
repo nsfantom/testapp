@@ -8,18 +8,18 @@
 import java.math.BigInteger;
 
 public class Problem15 {
-    private static final int x = 10, y = 10;
+    private static final int x = 20, y = 20;
 
     public static void main(String[] args) {
         long time = System.nanoTime();
-        BigInteger result = getFactorialBigInt(new BigInteger(String.valueOf(x + y)), new BigInteger(String.valueOf(x+1)))
-                .divide(getFactorialBigInt(new BigInteger(String.valueOf(y)), new BigInteger("1")));
+        BigInteger result = getFactorialBigInt(BigInteger.valueOf(x + y), BigInteger.valueOf(x+1))
+                .divide(getFactorialBigInt(BigInteger.valueOf(y), BigInteger.ONE));
         time = System.nanoTime() - time;
         System.out.print("nanoTime: " + time + "\nResult: " + result.toString());
     }
 
     private static BigInteger getFactorialBigInt(BigInteger value, BigInteger stopvalue) {
         if (value.equals(stopvalue)) return value;
-        return value.multiply(getFactorialBigInt(value.subtract(new BigInteger("1")), stopvalue));
+        return value.multiply(getFactorialBigInt(value.subtract(BigInteger.ONE), stopvalue));
     }
 }
