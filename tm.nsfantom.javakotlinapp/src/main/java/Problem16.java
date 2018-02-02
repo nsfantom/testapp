@@ -12,7 +12,7 @@ public class Problem16 {
     public static void main(String[] args) {
         long sum = 0;
         long time = System.nanoTime();
-        BigInteger result = new BigInteger("2").pow(x);
+        BigInteger result = BigInteger.valueOf(2).pow(x);
         System.out.println(result);
         BigInteger[] a;
         do {
