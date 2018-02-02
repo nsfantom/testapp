@@ -19,7 +19,7 @@ public class Problem16 {
             a = result.divideAndRemainder(BigInteger.TEN);
             result = a[0];
             sum+=a[1].intValue();
-        }while (a[1].compareTo(BigInteger.ZERO)>=0 && BigInteger.ZERO.compareTo(a[0])<0);
+        }while (BigInteger.ZERO.compareTo(a[1])<=0 && BigInteger.ZERO.compareTo(a[0])<0);
         time = System.nanoTime() - time;
         System.out.print("nanoTime: " + time + "\nResult: " + sum);
     }
