@@ -22,12 +22,11 @@ public final class Problem22 {
     private static List<Character> characterList;
 
     public static void main(String[] args) {
-        long sum = 0;
-        long time = System.nanoTime();
         characterList = initArray();
         List<String> names = initNames();
         names.add(0, "0"); // init index 0
-        for (String s : names) sum += getScore(s.toCharArray()) * names.indexOf(s);
+        long time = System.nanoTime();
+        long sum = names.stream().map(s -> getScore(s.toCharArray()) * names.indexOf(s)).mapToLong(i -> i).sum();
         time = System.nanoTime() - time;
         System.out.print("nanoTime: " + time + "\nResult: " + sum);
     }
@@ -41,8 +40,7 @@ public final class Problem22 {
     private static List<Character> initArray() {
         List<Character> a = new ArrayList<>();
         a.add('0'); // init index 0
-        for (char alphabet = 'A'; alphabet <= 'Z'; alphabet++)
-            a.add(alphabet);
+        for (char alphabet = 'A'; alphabet <= 'Z'; alphabet++) a.add(alphabet);
         return a;
     }
 
@@ -60,6 +58,7 @@ public final class Problem22 {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
         return a.stream().sorted().collect(Collectors.toList());
     }
 }
