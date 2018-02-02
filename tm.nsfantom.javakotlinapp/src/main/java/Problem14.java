@@ -15,7 +15,7 @@
     NOTE: Once the chain starts the terms are allowed to go above one million.
  */
 
-public class Problem14 {
+public final class Problem14 {
     private final static int limit = 1000000;
 
     public static void main(String[] args) {
