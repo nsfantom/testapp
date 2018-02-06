@@ -30,6 +30,15 @@ public final class Problem24 {
         return res.toString();
     }
 
+
+    /*
+    Condensed mathematical description:
+    1) Find largest index i such that array[i − 1] < array[i].
+    (If no such i exists, then this is already the last permutation.)
+    2) Find largest index j such that j ≥ i and array[j] > array[i − 1].
+    3) Swap array[j] and array[i − 1].
+    4) Reverse the suffix starting at array[i]
+     */
     private static boolean doPermutation() {
 
         // Find longest non-increasing suffix
