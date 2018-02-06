@@ -48,6 +48,6 @@ public final class Problem8 {
                 if (add[0]>max) max = add[0];
             }
         }
-        System.out.println("max : "+ max);
+        System.out.println("Max: "+ max);
     }
 }
