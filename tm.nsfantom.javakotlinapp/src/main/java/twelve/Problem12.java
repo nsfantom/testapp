@@ -34,6 +34,6 @@ public final class Problem12 {
             System.out.println(curent);
         }
         time = System.nanoTime() - time;
-        System.out.println("nanoTime: " + time + "\nresult: " + curent);
+        System.out.println("nanoTime: " + time + "\nResult: " + curent);
     }
 }
