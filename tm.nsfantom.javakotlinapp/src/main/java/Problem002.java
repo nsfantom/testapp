@@ -1,6 +1,6 @@
 package src.main.java;
 
-public final class Problem2 {
+public final class Problem002 {
 
     public static void main(String[] args) {
         final long[] sum = {0};

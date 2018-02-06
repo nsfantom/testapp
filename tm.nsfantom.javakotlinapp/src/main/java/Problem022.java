@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
 
     What is the total of all the name scores in the file?
  */
-public final class Problem22 {
+public final class Problem022 {
 
     private static List<Character> characterList;
 

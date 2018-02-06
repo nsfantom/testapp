@@ -1,6 +1,6 @@
 package src.main.java;
 
-public final class Problem4 {
+public final class Problem004 {
     public static void main(String[] args) {
         int max = 0;
         for (int i = 999; i >= 100; i--) {

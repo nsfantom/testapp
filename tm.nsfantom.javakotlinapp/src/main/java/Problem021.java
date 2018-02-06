@@ -7,7 +7,7 @@
 
     Evaluate the sum of all the amicable numbers under 10000.
  */
-public final class Problem21 {
+public final class Problem021 {
     public static void main(String[] args) {
         long sum = 0;
         int current;

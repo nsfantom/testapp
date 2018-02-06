@@ -1,4 +1,4 @@
-public final class Problem11 {
+public final class Problem011 {
     /*
     The product of these numbers is 26 × 63 × 78 × 14 = 1788696.
 

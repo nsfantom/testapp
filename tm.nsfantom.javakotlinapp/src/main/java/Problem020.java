@@ -9,7 +9,7 @@
 
 import java.math.BigInteger;
 
-public final class Problem20 {
+public final class Problem020 {
     public static void main(String[] args){
         long sum = 0;
         long time = System.nanoTime();
