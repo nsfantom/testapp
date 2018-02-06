@@ -10,8 +10,6 @@ public final class Problem013 {
     public static void main(String[] args) {
         first();
         second();
-        first();
-        second();
     }
 
     private static void first() {
