@@ -1,4 +1,6 @@
-public final class Problem011 {
+package src.main.java.twelve;
+
+public final class Problem11 {
     /*
     The product of these numbers is 26 × 63 × 78 × 14 = 1788696.
 

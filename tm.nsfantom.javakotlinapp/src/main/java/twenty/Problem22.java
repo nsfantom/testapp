@@ -1,3 +1,5 @@
+package src.main.java.twenty;
+
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -17,7 +19,7 @@ import java.util.stream.Collectors;
 
     What is the total of all the name scores in the file?
  */
-public final class Problem022 {
+public final class Problem22 {
 
     private static List<Character> characterList;
 

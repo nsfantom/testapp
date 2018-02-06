@@ -1,3 +1,5 @@
+package src.main.java.teen;
+
 import java.math.BigInteger;
 
 
@@ -6,7 +8,7 @@ import java.math.BigInteger;
 
     What is the sum of the digits of the number 2^1000?
  */
-public final class Problem016 {
+public final class Problem16 {
     private static final int x = 1000;
 
     public static void main(String[] args) {

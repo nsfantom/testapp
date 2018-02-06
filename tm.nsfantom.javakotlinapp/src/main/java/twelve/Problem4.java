@@ -1,6 +1,6 @@
-package src.main.java;
+package src.main.java.twelve;
 
-public final class Problem004 {
+public final class Problem4 {
     public static void main(String[] args) {
         int max = 0;
         for (int i = 999; i >= 100; i--) {

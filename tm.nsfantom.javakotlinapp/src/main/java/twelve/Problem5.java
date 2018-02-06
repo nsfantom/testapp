@@ -1,6 +1,6 @@
-package src.main.java;
+package src.main.java.twelve;
 
-public final class Problem005 {
+public final class Problem5 {
     public static void main(String[] args) {
         int count = 0;
         int number = 20;

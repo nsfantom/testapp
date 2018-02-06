@@ -1,4 +1,4 @@
-/*
+package src.main.java.teen;/*
     The following iterative sequence is defined for the set of positive integers:
 
     n → n/2 (n is even)
@@ -15,7 +15,7 @@
     NOTE: Once the chain starts the terms are allowed to go above one million.
  */
 
-public final class Problem014 {
+public final class Problem14 {
     private final static int limit = 1000000;
 
     public static void main(String[] args) {

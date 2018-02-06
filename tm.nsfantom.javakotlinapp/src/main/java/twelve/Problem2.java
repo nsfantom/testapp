@@ -1,6 +1,6 @@
-package src.main.java;
+package src.main.java.twelve;
 
-public final class Problem002 {
+public final class Problem2 {
 
     public static void main(String[] args) {
         final long[] sum = {0};

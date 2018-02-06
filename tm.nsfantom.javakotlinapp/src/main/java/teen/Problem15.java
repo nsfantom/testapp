@@ -1,4 +1,4 @@
-/*
+package src.main.java.teen;/*
     Starting in the top left corner of a 2×2 grid, and only being able to move to the right and down,
     there are exactly 6 routes to the bottom right corner.
 
@@ -7,7 +7,7 @@
 
 import java.math.BigInteger;
 
-public final class Problem015 {
+public final class Problem15 {
     private static final int x = 20, y = 20;
 
     public static void main(String[] args) {

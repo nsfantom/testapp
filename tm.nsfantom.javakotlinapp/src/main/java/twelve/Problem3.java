@@ -1,8 +1,8 @@
-package src.main.java;
+package src.main.java.twelve;
 
 import java.util.ArrayList;
 
-public final class Problem003 {
+public final class Problem3 {
     /*
     The prime factors of 13195 are 5, 7, 13 and 29.
     What is the largest prime factor of the number 600851475143 ?

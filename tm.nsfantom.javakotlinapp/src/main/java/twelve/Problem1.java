@@ -1,8 +1,8 @@
-package src.main.java;
+package src.main.java.twelve;
 
 import java.util.HashSet;
 
-public final class Problem001 {
+public final class Problem1 {
 
     public static void main(String[] args) {
 

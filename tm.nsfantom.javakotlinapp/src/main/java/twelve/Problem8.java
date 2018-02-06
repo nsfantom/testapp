@@ -1,9 +1,9 @@
-package src.main.java;
+package src.main.java.twelve;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public final class Problem008 {
+public final class Problem8 {
     public static void main(String[] args) {
         String sArray
                 = "73167176531330624919225119674426574742355349194934"

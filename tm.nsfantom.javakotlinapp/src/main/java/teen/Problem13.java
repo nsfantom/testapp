@@ -1,11 +1,11 @@
-package src.main.java;
+package src.main.java.teen;
 
 import java.math.BigInteger;
 
 /*
  Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.
  */
-public final class Problem013 {
+public final class Problem13 {
 
     public static void main(String[] args) {
         first();

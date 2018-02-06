@@ -1,6 +1,6 @@
-package src.main.java;
+package src.main.java.twelve;
 
-public final class Problem009 {
+public final class Problem9 {
     /*
     A Pythagorean triplet is a set of three natural numbers, a < b < c, for which,
     a2 + b2 = c2
