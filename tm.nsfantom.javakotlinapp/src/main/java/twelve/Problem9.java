@@ -18,6 +18,6 @@ public final class Problem9 {
             c = sum - a - b;
         }
         pow= a*b*c;
-        System.out.println("result: "+ pow);
+        System.out.println("Result: "+ pow);
     }
 }
