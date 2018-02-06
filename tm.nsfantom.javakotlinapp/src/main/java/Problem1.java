@@ -16,7 +16,7 @@ public final class Problem1 {
 //            if(i%3==0 || i%5==0) set.add(i);
 
         final long[] sum = {0};
-        set.forEach(s -> sum[0] = sum[0] + s);
+        set.forEach(s -> sum[0] += s);
         time = System.nanoTime() - time;
         System.out.print("nanoTime: " + time + "\nResult: " + sum[0]);
     }
