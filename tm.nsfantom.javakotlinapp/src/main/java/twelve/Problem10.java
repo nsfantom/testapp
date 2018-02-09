@@ -1,4 +1,4 @@
-package src.main.java.twelve;
+package twelve;
 
 public final class Problem10 {
     /*

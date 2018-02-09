@@ -1,4 +1,4 @@
-package src.main.java.twelve;
+package twelve;
 
 import java.util.HashSet;
 

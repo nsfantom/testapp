@@ -1,4 +1,4 @@
-package src.main.java.twenty;
+package twenty;
 
 /*
     Let d(n) be defined as the sum of proper divisors of n (numbers less than n which divide evenly into n).

@@ -1,4 +1,4 @@
-package src.main.java.twenty;
+package twenty;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;

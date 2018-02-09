@@ -1,4 +1,4 @@
-package src.main.java.twenty;
+package twenty;
 
 /*
     A permutation is an ordered arrangement of objects. For example, 3124 is one possible permutation of the digits 1, 2, 3 and 4.
