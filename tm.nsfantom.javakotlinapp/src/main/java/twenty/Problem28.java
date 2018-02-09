@@ -19,17 +19,12 @@ public final class Problem28 {
 
     public static void main(String[] args) {
         long sum = 1;
-        int length = 8, counter = 1;
+        int counter = 1, k = 2;
         long time = System.nanoTime();
-
-        while (counter<=capacity){
-            //TODO must be simplify
-            for (int i = 1; i <= length; i++) {
-                counter++;
-                if((counter-1)%(length/4)==0)sum+=counter;
-                if(counter>=capacity)break;
-            }
-            length+=8;
+        while (counter<capacity){
+            for (int i = 0; i <4 ; i++)
+                sum+=counter+=k;
+            k+=2;
         }
         time = System.nanoTime() - time;
         System.out.print("nanoTime: " + time + "\nResult: " + sum);
