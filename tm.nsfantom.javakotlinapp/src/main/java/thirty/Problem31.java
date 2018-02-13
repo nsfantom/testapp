@@ -17,8 +17,9 @@ public final class Problem31 {
         int[] arr = new int[]{1, 2, 5, 10, 20, 50, 100, 200};
         long time = System.nanoTime();
 
-        int result = findCoins(target, arr);
-//        int result= findWays(target, arr);
+//        int result = findCoins(target, arr);
+        int result= findWays(target, arr);
+        time = System.nanoTime() - time;
         System.out.print("nanoTime: " + time + "\nResult: " + result);
     }
 
